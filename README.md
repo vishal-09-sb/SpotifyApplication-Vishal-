@@ -30,6 +30,9 @@ This project aims to develop a music application, "Spotify App," allowing users 
 ## High Level Architecture Diagram:
 
 
+<img width="445" alt="Architecture" src="https://github.com/vishal-09-sb/SpotifyApplication-Vishal-/assets/61041718/26d32832-a5f0-4f07-af5a-31d22080df1b">
+
+
 ## Microservices Responsibilities:
 - User Profile Service: Store user registration details and publish credentials.
 - Authentication Service: Validate login credentials and generate JWT tokens.
