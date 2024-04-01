@@ -1,0 +1,73 @@
+.logo {
+    text-align: center;
+    img {
+        margin-top: 20px;
+        height: 70px;
+    }
+}
+
+.gray {
+    color: rgb(214, 214, 214);
+    border: solid 1px white;
+    border-radius: 2%;
+    height: 55px;
+}
+.gray.ng-touched {
+    /* Add styles you want to apply when the input is touched */
+    /* Example: */
+    border-color: #16181c; /* Change border color when touched */
+}
+
+.mff-width {
+    width: 350px;
+}
+
+.container {
+    width: fit-content;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: #16181c;
+    .heading {
+        font-weight: bold;
+    }
+    .heading-login {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .btn {
+        button {
+            width: 350px;
+            height: 45px;
+            border-radius: 20px;
+            font-weight: 500;
+            letter-spacing: 1px;
+
+            img {
+                margin-right: 5px;
+                height: 20px;
+            }
+        }
+    }
+
+   
+    .error-message {
+        color: red;
+        margin-top: 10px; /* Adjust margin as needed */
+      }
+
+    
+
+    .btn-login {
+        width: 350px;
+        height: 40px;
+        background-color: green;
+        border-radius: 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: white;
+    }
+
+
+
+}

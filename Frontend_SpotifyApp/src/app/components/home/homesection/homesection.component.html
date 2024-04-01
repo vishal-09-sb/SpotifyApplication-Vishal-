@@ -1,0 +1,18 @@
+<div class="container mt-5">
+  <div class="row songs">
+    <div class="card-container d-flex flex-wrap gap-4">
+      <div class="card col-md-3" *ngFor="let album of albums">
+        <img
+          class="card-img-top img-fluid"
+          [src]="album.images && album.images.length > 0 ? album.images[0].url : 'path_to_placeholder_image'"
+          alt="Card image cap"
+          (click)="navigateToPlaysong(album.id)"
+        />
+        <div class="card-body">
+          <h3 class="card-title">{{ album.name }}</h3>
+          <p class="card-text">{{ album.album_type }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
